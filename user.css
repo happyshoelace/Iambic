@@ -1,0 +1,49 @@
+
+@keyframes color-change {
+    0% { color: red; }
+    14% { color: orange; }
+    28% { color: rgb(252, 196, 10); }
+    42% { color: green; }
+    56% { color: blue; }
+    70% { color: indigo; }
+    84% { color: violet; }
+    100% { color: red; }
+  }
+
+
+
+/* Colour change for "See All" + Metadata Buttons */
+.main-type-minuetBold:hover,.main-cardSubHeader-root:hover{
+    color: #D4BEBE;
+    text-decoration: none;
+}
+
+/* Other fun gifs :D 
+
+https://i.imgur.com/vlZPdOY.gif - Cat in the rain (Credit u/ryano357)
+https://i.pinimg.com/originals/3e/bf/a9/3ebfa95b33d25f2354095265a9ce9132.gif - Japanese Street (Credit MEJWH on Tumblr)
+https://i.pinimg.com/originals/af/07/ed/af07ed777318ec7c474804dbf7afdffb.gif - Fish Pond
+https://media.tenor.com/kqlEI-zeRL4AAAAC/pixelart.gif - Snowy Gaming
+https://i.pinimg.com/originals/c2/83/f6/c283f68fcbc8ac4a7d4be1340df6391a.gif - Typing
+https://i.pinimg.com/originals/2b/eb/dc/2bebdcec5d81df477cf9a48d7347af71.gif - Driving
+
+But really you can put anything
+*/
+
+/* Gets Gif for header */
+.main-home-homeHeader{
+    background-image: url(https://i.imgur.com/vlZPdOY.gif);
+    background-position: center;
+    background-size: cover;
+}
+
+/* Changing the Heart colour to red */
+.control-button-heart{
+    color:red;
+}
+
+/* No project can escape a rainbow */
+.control-button-heart:hover{
+    animation: color-change 15s infinite !important;
+}
+
